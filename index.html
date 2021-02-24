@@ -15,6 +15,33 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
   
+<script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+    });
+  });
+  </script>
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -92,18 +119,18 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item active px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="index.html" data-i18n="menu_about">Home
+            <a class="nav-link text-uppercase text-expanded" href="index.html#news" data-i18n="menu_about">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="products.html" data-i18n="menu_services">Services</a>
+            <a class="nav-link text-uppercase text-expanded" href="index.html#aboutus" data-i18n="menu_services">Services</a>
           </li>
           <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="management.html" data-i18n="menu_management">Management</a>
+              <a class="nav-link text-uppercase text-expanded" href="index.html#studio" data-i18n="menu_management">Management</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="about.html" data-i18n="menu_experience">Experience</a>
+            <a class="nav-link text-uppercase text-expanded" href="index.html#gear" data-i18n="menu_experience">Experience</a>
           </li>
           <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="store.html" data-i18n="menu_music">Music</a>
@@ -170,7 +197,7 @@
   </section>
 -->
     <section class="page-section about-heading">
-    <div class="container" id="nusduo">
+    <div class="container" id="aboutus">
       <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/intro.jpg" alt="">
       <div class="about-heading-content">
         <div class="row">
@@ -189,7 +216,7 @@
     </section>
   
   <section class="page-section clearfix">
-    <div class="container">
+    <div class="container" id="studio">
       <div class="intro">
         <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/studio.jpg" alt="">
         <div class="intro-text left-0 text-center bg-faded p-5 rounded">
@@ -207,7 +234,7 @@
   </section>
 
     <section class="page-section clearfix">
-    <div class="container">
+    <div class="container" id="gear">
       <div class="intro2">
         <img class="intro2-img img-fluid mb-3 mb-lg-0 rounded" src="img/gear.jpg" alt="">
         <div class="intro2-text right-0 text-center bg-faded p-5 rounded">
