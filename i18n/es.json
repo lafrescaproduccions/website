@@ -52,7 +52,7 @@
   "music_title": "Algunos proyectos",
   "music_subtitle": "Échales un vistazo",
   "contact_title": "¿Alguna Pregunta?",
-  "contact_subtitle": "Contacta",
+  "contact_subtitle": "¡Contacta con nosotros!",
   "contact_error": "Por favor introduce una dirección email válida",
   "contact_send": "Enviar",
   "cookie_alert": "Te gustan las cookies?</b> &#x1F36A; Esta web utiliza cookies para asegurarte la mejor experiencia durante tu vistia. <a href=\"https://cookiesandyou.com/\" target=\"_blank\">Saber más</a>",
@@ -66,5 +66,7 @@
   "studio_text_2": "Haz click para ver más fotos de nuestro espacio",
   "gear_text_1": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   "gear_text_2": "Haz click para ver el listado de nuestro material",
+  "visit_text_1":"¡O visítanos!",
+  "visit_text_2":"Nos encontrarás en C/Aragó 382, cerca de Verdaguer (L4) y Monumental (L2)",
   "content": "Hay una gran diferencia entre las pechugas de pollo jugosas y las pechugas de pollo gomosas. Obviamente, desea evitar este último a toda costa. Sigue estos 4 pasos y serás oro. ¿Desea agregar proteínas a favoritos como la ensalada César o preparar una ensalada rápida de pollo o un sándwich club? Prueba este método y saborea los resultados."
 }
