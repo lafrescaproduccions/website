@@ -61,12 +61,15 @@
   "news_text_2":"Hello World!",
   "news_text_3":"We launched new website!",
   "lang": "EN",
-  "about_text_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
-  "studio_text_1": "nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  "about_text_1": "After years of working around stages and focused to the recording studio sector, we decided to start engines with our own project. La Fresca is a cooperative, open and inclusive project involved with the SSE.",
+  "studio_text_1": "We've our studio on Aragó with Passeig de Sant Joan with a recording room of more than 70 square meters, a control room and a rest area. The recording room allow us to record live sessions and we also offer video recording services.",
   "studio_text_2": "Click here to see more pics about our space",
-  "gear_text_1": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "gear_text_1": "We can record up to 26 channels at the same time, we've a small selection of diverse preamps, we can develope up to 8 independent mixes for the musicians, we've various microphones for instruments and voices, backline and outdoor filming material.",
   "gear_text_2": "Click here to see our detailed equipment",
   "visit_text_1":"Or visit us!",
   "visit_text_2":"You'll find us at C/Aragó 382, near from Verdaguer (L4) and Monumental (L2)",
+  "pic_studio_1_text_1":"Recording Room",
+  "pic_studio_2_text_1":"Recording Room",
+  "pic_studio_3_text_1":"Control Room",
   "content": "There’s a big difference between juicy chicken breasts and rubbery chicken breasts. Obviously, you want to avoid the latter at all costs. Follow these 4 steps and you’re gold. You want to add protein to favorites like Caesar salad or fix up a quick chicken salad or club sandwich? Try this method and savor the results."
 }
