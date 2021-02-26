@@ -52,7 +52,7 @@
   "music_title": "Some projects",
   "music_subtitle": "Check Them Out",
   "contact_title": "Any questions?",
-  "contact_subtitle": "Contact me",
+  "contact_subtitle": "Contact us!",
   "contact_error": "Please enter a correct email address.",
   "contact_send": "Send",
   "cookie_alert": "Do you like cookies?</b> &#x1F36A; This website uses cookies to ensure you get the best experience during your visit. <a href=\"https://cookiesandyou.com/\" target=\"_blank\">Learn more</a>",
@@ -66,5 +66,7 @@
   "studio_text_2": "Click here to see more pics about our space",
   "gear_text_1": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   "gear_text_2": "Click here to see our detailed equipment",
+  "visit_text_1":"Or visit us!",
+  "visit_text_2":"You'll find us at C/Aragó 382, near from Verdaguer (L4) and Monumental (L2)",
   "content": "There’s a big difference between juicy chicken breasts and rubbery chicken breasts. Obviously, you want to avoid the latter at all costs. Follow these 4 steps and you’re gold. You want to add protein to favorites like Caesar salad or fix up a quick chicken salad or club sandwich? Try this method and savor the results."
 }
